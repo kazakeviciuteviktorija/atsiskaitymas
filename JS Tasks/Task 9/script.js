@@ -19,7 +19,7 @@ class Movie {
       this.budget = budget;
      }
     wasExpensive() {
-      return this.budget > 100000000 ? "true": "false";
+      return this.budget > 100000000 ? "true": "false"; //būtų pakakę tik return this.budget > 100000000
      }
   }
 

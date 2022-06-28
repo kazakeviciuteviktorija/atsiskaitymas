@@ -32,6 +32,8 @@ const ENDPOINT = 'cars.json';
     };
           
         fetchCars();
+
+//trūksta formatavimo
         
 
 

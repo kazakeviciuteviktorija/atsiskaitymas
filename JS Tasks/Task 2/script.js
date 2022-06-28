@@ -12,5 +12,5 @@ let clickNumber = 0;
 
 function clickCount() {
   clickNumber += 1;
-  document.getElementById("btn__state").innerHTML = `${clickNumber}`;
+  document.getElementById("btn__state").innerHTML = `${clickNumber}`; //template literal čia nėra būtinas
  }
