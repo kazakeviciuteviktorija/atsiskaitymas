@@ -8,6 +8,7 @@ division(a, b) - priima du skaičius ir grąžina jų dalybos rezultatą;
 
 'use strict'
 
+//čia nėra konstruktoriaus funkcija. function Calculator() {....} ir tada iškvietimas new Calculator...
 var calculator = {
  read() {
       this.a = +prompt('skaičius A', 0);

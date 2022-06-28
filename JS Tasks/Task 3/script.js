@@ -27,6 +27,9 @@ const ENDPOINT = 'https://api.github.com/users';
       console.log(error);
       }};
   
+
+      // X labai netinkamas pavadinimas funkcijai :) 
+
       function X(item) {
           document.getElementById("output").innerHTML += `<div>
           <span>${item.login}</span>
@@ -38,7 +41,8 @@ const ENDPOINT = 'https://api.github.com/users';
       document.getElementById("output").setAttribute(
         "style", "font-size: 30px; text-align: center; font-style: bold; color:'black'");
     
-
+//failui trūksta formatavimo
+//sumiksuotos viengubos ir dvigubos kabutės
 
       
 

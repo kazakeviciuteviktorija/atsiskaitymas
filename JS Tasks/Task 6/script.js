@@ -33,9 +33,7 @@ function getUsersNames(users) {
 };
 console.log(newArray);
 
-
-
-
-
-
-
+//getUsersNames galima buvo užrašyti kiek patogiau, pvz
+// function getUsersNames(users) {
+  // return users.map((user) => user.name)
+// }
